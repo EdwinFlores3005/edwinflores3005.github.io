@@ -1,0 +1,86 @@
+
+main, header, section, footer{
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+main {
+    background: #000000;
+}
+
+header {
+    background: #03a9f4;
+}
+
+.Intro{
+    background: #77878B;
+}
+
+.AboutMe{
+    background: #305252;
+}
+
+.Knowledge{
+    background: #373e40;
+}
+
+.Projects{
+    background: #488286;
+}
+
+.WhiteSpace{
+    background: #B7D5D4;
+}
+
+footer {
+    border: 1px solid #000000;
+    background: #616161;
+}
+
+.containermenu{
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.barra1, .barra2{
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.6s;
+}
+
+.cambio .barra2 {
+  -webkit-transform: rotate(-45deg) scale(0.9);
+  transform: rotate(-45deg) scale(0.9);
+}
+
+.cambio .barra1{
+    -webkit-transform: scaleY(0.75) scaleX(0.72);
+  transform: scaleY(0.75) scaleX(0.72);
+}
+
+.containermenu #links{
+    display: none;
+    z-index: 100;
+    position: absolute;
+}
+
+.containermenu a{
+    background-color: #305252;
+    color: white;
+    padding: 8px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+/*.containermenu a:hover{
+    background-color: #305252;
+    color: white;
+}
+Agregar en computadora
+*/
+.
