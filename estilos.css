@@ -1,17 +1,26 @@
+body{
+    margin: 0;
+}
 
 main, header, section, footer{
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #000000;
     color: #ffffff;
 }
 
 main {
+    padding: 10px;
     background: #000000;
 }
 
 header {
-    background: #03a9f4;
+    background: #488286;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
 }
 
 .Intro{
@@ -40,7 +49,6 @@ footer {
 }
 
 .containermenu{
-    display: inline-block;
     cursor: pointer;
     transition: 1s;
 }
@@ -83,4 +91,7 @@ footer {
 }
 Agregar en computadora
 */
-.
+
+.headcenter{
+    
+}
