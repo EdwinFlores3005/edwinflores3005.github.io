@@ -1,31 +1,32 @@
+
+html{
+    font-size: 100%;
+}
 body{
     margin: 0px;
 }
 
+header, p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
 main, header, section, footer{
     margin: 0;
-    padding: 15px;
+    padding: 5%;
     border: 1px solid #000000;
-    color: #ffffff;
 }
 
 main {
     padding: 10px;
     background: #000000;
-}
-
-header {
-    background: #488286;
-    color: white;
-    display: flex;
-flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-}
-
-.Intro{
-    background: #77878B;
 }
 
 .AboutMe{
@@ -49,6 +50,19 @@ footer {
     background: #616161;
 }
 
+/*Contenido Header*/
+
+header {
+    height: auto;
+    padding: 15px;
+    background: #488286;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .containermenu{
     cursor: pointer;
     transition: 1s;
@@ -57,7 +71,7 @@ footer {
 .barra1, .barra2{
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: white;
     margin: 6px 0;
     transition: 0.6s;
 }
@@ -76,6 +90,9 @@ footer {
     display: none;
     z-index: 100;
     position: absolute;
+    width: 75%;
+    text-align: center;
+    
 }
 
 .containermenu a{
@@ -84,6 +101,7 @@ footer {
     padding: 8px 10px;
     display: block;
     text-decoration: none;
+    padding: 25px;
 }
 
 /*.containermenu a:hover{
@@ -94,5 +112,21 @@ Agregar en computadora
 */
 
 .headcenter{
+    text-decoration: none;
+    color: white;
+}
+
+/*Contenido Intro*/
+
+.Intro{
+    background: #B7D5D4;
+    color: black;
+    height: auto;
+}
+
+.titulo{
+    height: 340px;
+    background: pink;
+    position: relative;
     
 }
