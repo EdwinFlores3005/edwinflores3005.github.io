@@ -1,44 +1,51 @@
 
 html{
     font-size: 100%;
-}
-body{
+    height: 100%;
+    min-height: 100%;
     margin: 0px;
 }
 
-header, p{
+body{
+    margin: 0px;
+    height: 100%;
+    min-height: 100%;
+}
+
+p{
     font-family: 'Roboto', sans-serif;
 }
 
 h1{
-    margin: 0%;
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 40%;
 }
 
 main, header, section, footer{
-    margin: 0;
-    padding: 5%;
+    margin: 0px;
+    padding: 3%;
     border: 1px solid #000000;
 }
 
 main {
-    padding: 10px;
-    background: #000000;
+    padding: 1%;
+    background: #EAE2B7;
+    height: 100vh;
+    min-height: 100vh;
+
 }
 
 .AboutMe{
-    background: #305252;
+    background: #D62828;
 }
 
 .Knowledge{
-    background: #373e40;
+    background: #003049;
 }
 
 .Projects{
-    background: #488286;
+    height: 50%;
+    background: #EAE2B7;
 }
 
 .WhiteSpace{
@@ -53,10 +60,9 @@ footer {
 /*Contenido Header*/
 
 header {
-    height: auto;
-    padding: 15px;
-    background: #488286;
-    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background: #F77F00;
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,14 +71,13 @@ header {
 
 .containermenu{
     cursor: pointer;
-    transition: 1s;
 }
 
 .barra1, .barra2{
-    width: 35px;
+    width: 30px;
     height: 5px;
-    background-color: white;
-    margin: 6px 0;
+    background-color: black;
+    margin: 4px 0;
     transition: 0.6s;
 }
 
@@ -96,12 +101,12 @@ header {
 }
 
 .containermenu a{
-    background-color: #305252;
-    color: white;
+    color: black;
+    background-color: #F77F00;
     padding: 8px 10px;
     display: block;
     text-decoration: none;
-    padding: 25px;
+    padding: 8%;
 }
 
 /*.containermenu a:hover{
@@ -112,21 +117,21 @@ Agregar en computadora
 */
 
 .headcenter{
+    font-size: 1.3em;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 /*Contenido Intro*/
 
 .Intro{
-    background: #B7D5D4;
+    background: #FCBF49;
     color: black;
-    height: auto;
+    height: 80%;
 }
 
-.titulo{
-    height: 340px;
-    background: pink;
-    position: relative;
-    
+
+.Intro h1{
+    text-align: center;
 }
+
